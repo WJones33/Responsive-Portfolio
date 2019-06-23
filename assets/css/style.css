@@ -1,15 +1,11 @@
 
 /* keeps from spacing when scrolling */
 *{
-  -webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
+
   margin: 0;
   padding: 0;
 }
-body, html, img {
-  width: 100%;
-}
+
 html {
 
   height: 100%;
@@ -116,6 +112,15 @@ nav li {
     color: #4aaaa5;
   }
 
+  .mobilelogo {
+
+    display: none;
+  }
+
+  .mobilenav {
+
+    display: none;
+  }
 
   header {
 
@@ -346,179 +351,3 @@ nav li {
   font-size: 10px;
   border-top: 5px solid #4aaaa5;
  }
-
-
-/* media sizing */
-
-@media screen and (max-width: 980px) {
-  .column {
-    flex: 25%;
-    max-width: 25%;
-  }
-
-  .container{
-    
-    clear: both;
-    margin: 0 auto;
-    width: fit-content;
-    min-height: 100%;
-    
-  
-  }
-
-  .mobilelogo {
-
-    display: none;
-  }
-
-  .mobilenav {
-
-    display: none;
-  }
-
-}
-
-
-@media screen and (max-width: 768px) {
-  .column {
-    flex: 40%;
-    max-width: 40%;
-  }
-
-  .container{
-    
-    clear: both;
-    margin: 0 auto;
-    max-width: 98%;
-    min-height: 100%;
-    
-  
-  }
-
-  #bio-image
-  {
-
-    margin-right: 20px;
-    margin-top: 14px;
-    width: 300px;
-  
-}
-
-.navbar {
-
- margin: 0 auto;
- z-index: 100;
- width: 100%;
-}
-
-.mobilelogo {
-
-  display: none;
-
-}
-
-.mobilenav {
-
-  display: none;
-}
-
-}
-
-
-@media screen and (max-width: 640px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-
-  #bio-image
-  {
-
-    margin-right: 20px;
-    margin-top: 14px;
-    margin-bottom: 10px;
-    width: 100%;
-  
-}
-
-
-header {
-
-  
-  display: none;
-  
-  
-  
-}
-
-
-.mobilelogo {
-
-  color: white;
-  background-color: #4aaaa5; 
-  text-align: center;
-  display: block;
-  padding-top: 30px;
-  padding-bottom: 30px;
-
-}
-
-.mobilelogo::after{
-  
-  content: '';
-  display: table;
-  clear: both;
-  
-}
-
-.mobilenav {
-
-  display: contents;
-  margin-bottom: 0px;
-}
-
-.mobilenavul {
-
-  list-style: none;
-  background-color: white;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 3px solid #cccccc;
-
-}
-
-.mobilenav li {
-
-  display: inline-block;
-}
-
-.mobilenav a {
-
-  text-decoration: none;
-  color: #777777;
-  width: 100%;
-  font-size: 100%;
-  padding: 15px;
-}
-
-.container {
-
-  margin-top: -100px;
-  margin-left: 15px;
-  margin-right: 16px;
-
-}
-
-
-.container-port {
-
-  margin-top: -100px;
-  margin-left: 15px;
-  margin-right: 16px;
-
-}
-
-}
