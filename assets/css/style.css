@@ -1,7 +1,9 @@
 
 /* keeps from spacing when scrolling */
 *{
-
+  -webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
   margin: 0;
   padding: 0;
 }
@@ -404,7 +406,6 @@ nav li {
 
 .navbar {
 
-  /* inside of the header making sure the z-index is high so it covers everything  */
  margin: 0 auto;
  z-index: 100;
  width: 100%;
