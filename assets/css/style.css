@@ -21,7 +21,7 @@ html {
     /* space on the header */
     background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Background-Images-10.png);
 
-    width:fit-content
+    width:fit-content;
     height: 100%;
     margin: 0;
     padding: 0;
