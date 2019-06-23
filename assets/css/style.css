@@ -56,18 +56,18 @@ html {
 }
 
 
-.logo { 
+  .logo { 
   
 
-  float: left;
-  color: white;
-  background-color: #4aaaa5;
-  padding: 38px;
-  z-index: 101;
+    float: left;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 38px;
+    z-index: 101;
   
   
   
-}
+  }
 
 /*  nav list */
 
@@ -112,6 +112,11 @@ nav li {
     color: #4aaaa5;
   }
 
+  .mobilenav {
+
+    display: none;
+  }
+
   header {
 
   
@@ -139,7 +144,7 @@ nav li {
     
     clear: both;
     margin: 0 auto;
-    
+    width: fit-content;
     width: 960px;
     min-height: 100%;
     
@@ -278,6 +283,24 @@ nav li {
     padding: 10px 16.5px;
   }
 
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
 
   /* contact */
 
