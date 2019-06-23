@@ -112,6 +112,11 @@ nav li {
     color: #4aaaa5;
   }
 
+  .mobilelogo {
+
+    display: none;
+  }
+
   .mobilenav {
 
     display: none;
